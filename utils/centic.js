@@ -191,7 +191,6 @@ class CenticConnection {
     const taskResponse = await this.userTasks(apikey);
 
     if (taskResponse) {
-      log.info("test");
       const unclaimedTasks = [];
       const categories = [
         "Daily Tasks",
